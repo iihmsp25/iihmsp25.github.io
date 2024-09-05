@@ -201,8 +201,17 @@
             .titlelogo{
                 display:initial;
             }
+            .footerlogo{
+                display:initial;
+            }
+            .tiCarousel{
+                display:initial;
+            }
         }
         @media (max-width: 768px) {
+            .tiCarousel{
+                display: none;
+            }
             .navbar-fixed-top{
                 display:initial;
             }   
@@ -218,6 +227,9 @@
             body { padding-top: 50px; }
             .navtitle{
                 display: none;
+            }
+            .footerlogo{
+                display:none;
             }
         }
     </style>
@@ -240,7 +252,7 @@
                 </div>
             </div>
 
-            <div class="row" style="padding-left: 20px; padding-right: 20px; display: inline-flexbox /*inline-flex*/">
+            <div class="row tiCarousel" style="padding-left: 20px; padding-right: 20px; display: inline-flexbox /*inline-flex*/">
 
                 <div class="col-md-4 col-sm-4 col-xs-4 col-md-offset-0 col-sm-offset-0D" style="padding-top: 20px">
                     <div id="carousel-example-generic1" class="carousel slide" data-ride="carousel">
@@ -344,6 +356,7 @@
             <nav class="navbar navbar-default navbar-fixed-top">
                 <div class="container-fluid"> 
                     <div class="navbar-header"> 
+                        <a class="navbar-brand" href="#">IIHMSP 2025</a>
                         <button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-6" aria-expanded="false"> 
                             <span class="sr-only">Toggle navigation</span> 
                             <span class="icon-bar"></span> 
@@ -366,9 +379,9 @@
                             <li>
                                 <a href="#">Special Session Submission</a>
                             </li>
-                            <li>
+                            <!--<li>
                                 <a href="#">Paper Submission</a>
-                            </li>
+                            </li>-->
                             <li>
                                 <a href="#">Important Dates</a>
                             </li>
@@ -410,7 +423,7 @@
                         <a href="#" class="list-group-item list-group-item-info">Call for Papers</a>
                         <a href="#" class="list-group-item list-group-item-info">Paper Submission and Publication</a>
                         <a href="#" class="list-group-item list-group-item-info">Special Session Submission</a>
-                        <a href="#" class="list-group-item list-group-item-info">Paper Submission</a>
+                        <!--<a href="#" class="list-group-item list-group-item-info">Paper Submission</a>-->
                         <a href="#" class="list-group-item list-group-item-info">Important Dates</a>
                         <a href="#" class="list-group-item list-group-item-info">Camera-Ready Paper Submission</a>
                         <a href="#" class="list-group-item list-group-item-info">Registration</a>
@@ -463,13 +476,13 @@
                                      
                                 </p>    
                                 <p>
-                                    Pasadena, USA (2006 NASA, USA, included in IEEE)  ⮕ Kaohsiung, Taiwan (2007 Kaohsiung University of Applied Science, included in IEEE)  ⮕ Harbin, China (2008 Harbin Institute of Technology, included in IEEE)  ⮕ Kyoto, Japan (2009 Ritsumeikan University, included in IEEE)  ⮕ Darmstadt, Germany (2010 Darmstadt University of Technology, included in IEEE)  ⮕ Dalian, China (2011, included in IEEE)  ⮕ Athens, Greece ( 2012 University of Piraeus, included in IEEE)  ⮕ Beijing, China (2013 Beijing University of Technology, included in IEEE)  ⮕ Kitakyushu, Japan (2014 Waseda University, included in IEEE)  ⮕ Adelaide, Australia (2015 University of South Australia, included in IEEE)  ⮕ Kaohsiung, Taiwan (2016 Kaohsiung Application University of Technology, included in IEEE)  ⮕ Matsue, Japan (2017 Waseda University, included in Springer)  ⮕ Sendai, Japan (2018 Tohoku University, included in Springer)  ⮕ Jilin, China (2019 , included in Springer)  ⮕ HoChiMinh, Vietnam (2020, included in Spring-er)  ⮕ Kaohsiung, Taiwan (2021 Shude University of Science and Technology, included in Springer)  ⮕ Kita-kyushu, Japan (2022 Shandong University of Science and Technology, included in Springer)  ⮕ Daegu, South Korea (2023 Kyungpook National University, included in Springer)  ⮕ Matsue, Japan (2024 Fujian University of Technology, included in Springer). 
+                                    Pasadena, USA (2006 NASA, USA, included in IEEE)  ⮕ Kaohsiung, Taiwan (2007 Kaohsiung University of Applied Science, included in IEEE)  ⮕ Harbin, China (2008 Harbin Institute of Technology, included in IEEE)  ⮕ Kyoto, Japan (2009 Ritsumeikan University, included in IEEE)  ⮕ Darmstadt, Germany (2010 Darmstadt University of Technology, included in IEEE)  ⮕ Dalian, China (2011, included in IEEE)  ⮕ Athens, Greece ( 2012 University of Piraeus, included in IEEE)  ⮕ Beijing, China (2013 Beijing University of Technology, included in IEEE)  ⮕ Kitakyushu, Japan (2014 Waseda University, included in IEEE)  ⮕ Adelaide, Australia (2015 University of South Australia, included in IEEE)  ⮕ Kaohsiung, Taiwan (2016 Kaohsiung Application University of Technology, included in IEEE)  ⮕ Matsue, Japan (2017 Waseda University, included in Springer)  ⮕ Sendai, Japan (2018 Tohoku University, included in Springer)  ⮕ Jilin, China (2019 , included in Springer)  ⮕ HoChiMinh, Vietnam (2020, included in Springer)  ⮕ Kaohsiung, Taiwan (2021 Shude University of Science and Technology, included in Springer)  ⮕ Kita-kyushu, Japan (2022 Shandong University of Science and Technology, included in Springer)  ⮕ Daegu, South Korea (2023 Kyungpook National University, included in Springer)  ⮕ Matsue, Japan (2024 Fujian University of Technology, included in Springer). 
                                 </p>
                                 <p>
-                                    IIHMSP 2025 (The 21st International Conference on Intelligent Information Hiding and Multimedia Signal Processing) provides a forum for researchers, engineers, and scientists to discuss information hiding, multimedia signal processing, the application of artificial intelligence in multimedia and signal processing, and information technology to exchange latest research outcomes. 
+                                    <b>IIHMSP 2025</b> (The 21st International Conference on Intelligent Information Hiding and Multimedia Signal Processing) provides a forum for researchers, engineers, and scientists to discuss information hiding, multimedia signal processing, the application of artificial intelligence in multimedia and signal processing, and information technology to exchange latest research outcomes. 
                                 </p>
                                 <p>
-                                    All accepted papers will be published in the book series Smart Innovation, Systems and Technologies by <b>Springer</b>. Normally, papers in this series are indexed by EI and Scopus.
+                                    All accepted papers will be published in the book series <i>Smart Innovation, Systems and Technologies</i> by <b>Springer</b>. Normally, papers in this series are indexed by <b>EI</b> and <b>Scopus</b>.
                                     <!--&nbsp;&nbsp;All accepted regular papers will be published by Conference Publishing Service (CPS) of IEEE and submitted to 
                                     <span style="color: red"><a href="https://www.ieeesmc.org/conferences/calendar/event/575-the-8th-international-conference-on-awareness-science-and-technology-icast-2017" target="_blank" style="color: #0563C1; text-decoration: underline;">IEEE Xplore digital library</a></span>. 
                                     Please notice that CPS enforces a <b>"NO SHOW”</b> policy and only papers that are presented by an author at the conference site will be sent for inclusion in the digital libraries. 
@@ -515,18 +528,18 @@
                                     <tr>
                                         <td>Deadline for paper submission:</td>
                                         <td>
-                                             <span style="color:red">June 30, 2025</span><!-- (no extended in the future)-->
+                                             <span style="color:red">May 30, 2025</span><!-- (no extended in the future)-->
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>Notification of paper acceptance:</td>
                                         <td>
-                                            <span style="color:red"> July 30, 2025 </span>
+                                            <span style="color:red"> June 30, 2025 </span>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>Submission of final camera-ready papers:</td>
-                                        <td><span style="color: red">August 15, 2025</span></td>
+                                        <td><span style="color: red">July 15, 2025</span></td>
                                         <td style="color: red">&nbsp;</td>
                                     </tr>
                                     <tr>
@@ -615,7 +628,7 @@
                             </ul>
 
                             <div class="row" style="padding-left: 20px">
-                                <button ID="bt_downloadFile" type="button"  class="btn btn-primary btn-lg"><a class="filedow" href="file/2024.08.28 - CFP_IIHMSP2025.pdf" target="_blank">Download Call For Pappers</a></button>
+                                <button ID="bt_downloadFile" type="button"  class="btn btn-primary btn-lg"><a class="filedow" href="Download/CFP_IIHMSP2025.pdf" target="_blank">Download Call For Papers</a></button>
                                 <asp:Button ID="bt_SpecialSession" runat="server" Text="Special Session" CssClass="btn btn-primary btn-lg" OnClick="bt_sssignSpecialSession_Click"/>
                             </div>
                         </div>
@@ -627,16 +640,17 @@
                             </div>
                             <hr style="background: gray; border: 0; height: 3px" />
                             <h3>Paper Submission</h3>
-                            <p>The conference proceedings will be published in the book series of Smart Innovation, Systems and Technologies by Springer. All submitted papers should be written according to the following MS-Word or Latex template and should be <b>8</b> to <b>12</b> pages in length.</p>
+                            <blockquote style="border: none;">
+                            <p>The conference proceedings will be published in the book <i>series of Smart Innovation, Systems and Technologies</i> by <b>Springer</b>. All submitted papers should be written according to the following MS-Word or Latex template and should be <b>8</b> to <b>12</b> pages in length. In addition, the similarity of the submission paper must be less than 20% according to Springer’s recommended rule.</p>
                             <span>&#9679;&nbsp;<b>Paper Types</b></span>
                             <ul>
                                 <li>All papers should be submitted electronically in PDF versions of your paper through the
-                                    <a class="underlineBlue" href="https://eform.iis.sinica.edu.tw/url/icast2017/submit" target="_blank">Paper Submission System</a>.
+                                    <a class="underlineBlue" href="#" target="_blank">Paper Submission System</a>.
                                 </li>
-                                <li>The IIHMSP 2025 accepts one type of submission for review. The type of papers should be written in English, and will be included in the conference proceeding. In addition, the submission should be written according to the Springer conference paper format as shown in IIHMSP 2025 Proceeding Templates.
+                                <li>The IIHMSP 2025 accepts one type of submission for review. The type of papers should be written in English and will be included in the conference proceeding. In addition, the submission should be written according to the Springer conference paper format as shown in IIHMSP 2025 Proceeding Templates below.
                                 </li>
                             </ul>
-                            
+                        </blockquote>
 
                             <!--<span>&#9679;&nbsp;<b>Regular Paper:</b></span>
                             <ul>
@@ -655,20 +669,22 @@
                                     and they are <b>NOT</b> included in IEEE Xplore Digital Library and other indexes(EI/Scopus).
                                 </li>
                             </ul>-->
-
+                            <blockquote style="border: none;">
                             <span>&#9679;&nbsp;<b>IIHMSP 2025 Paper Templates:</b></span>
                             <ul>
-                                <li>Regular paper:
-                                    <ul>
+                                <!--<li>Regular paper:-->
+                                    <!--<ul>-->
                                         <li>The MS Word Template (in A4 size and the Springer format) can be downloaded here 
-                                            (<a href="img/Word+Template.zip" target="_blank">Word_Template.zip</a>) or link to <a href="https://www.springer.com/gp/authors-editors/conference-proceedings/editors/word-template/19338734?srsltid=AfmBOor_l72YdojlEwdddnK7ZlN_4iUQHTK3RwCka8aqqvjbM6omaX9O" target="_blank">https://www.springer.com/gp/authors-editors/conference-proceedings/editors/word-template/19338734?srsltid=AfmBOor_l72YdojlEwdddnK7ZlN_4iUQHTK3RwCka8aqqvjbM6omaX9O</a>
+                                            (<a href="Download/Word_Template.zip" target="_blank">Word_Template.zip</a>) or linked to 
+                                            <br /><a href="https://www.springer.com/gp/authors-editors/conference-proceedings/editors/word-template/19338734?srsltid=AfmBOor_l72YdojlEwdddnK7ZlN_4iUQHTK3RwCka8aqqvjbM6omaX9O" target="_blank">https://www.springer.com/gp/authors-editors/conference-proceedings/editors/word-template/19338734?srsltid=AfmBOor_l72YdojlEwdddnK7ZlN_4iUQHTK3RwCka8aqqvjbM6omaX9O</a>
                                         </li>
                                         <li>The Latex Template (in A4 size and the Springer format) can be downloaded here (
-                                            <a href="img/LaTeX2e+Proceedings+Templates+download.zip" target="_blank">Latex_Template.zip</a>) 
-                                            or link to <a href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines?srsltid=AfmBOoridfDNO9TTSjAzjeGQ08uQe5x3M0YYBFtZsnide1V8n1TVD_q4" target="_blank">https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines?srsltid=AfmBOoridfDNO9TTSjAzjeGQ08uQe5x3M0YYBFtZsnide1V8n1TVD_q4</a>
+                                            <a href="Download/Latex_Template.rar" target="_blank">Latex_Template.zip</a>) 
+                                            or linked to 
+                                            <br /><a href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines?srsltid=AfmBOoridfDNO9TTSjAzjeGQ08uQe5x3M0YYBFtZsnide1V8n1TVD_q4" target="_blank">https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines?srsltid=AfmBOoridfDNO9TTSjAzjeGQ08uQe5x3M0YYBFtZsnide1V8n1TVD_q4</a>
                                         </li>
-                                    </ul>
-                                </li>
+                                    <!--</ul>-->
+                                <!--</li>-->
                                 <!--<li>One-page Presentation-only Paper:
                                     <ul>
                                         <li>The MS Word Template (in A4 size and the IEEE two-column format) can be downloaded 
@@ -677,11 +693,11 @@
                                     </ul>
                                 </li>-->
                             </ul>
-                            <span>&#9679;&nbsp;<b>IIHMSP 2025 Paper Templates:</b></span>
-                            <ul>
-                                <li><p>All accepted papers will be published in the book series Smart Innovation, Systems and Technologies by <b>Springer</b>. Normally, papers in this series are indexed by <b>EI</b> and <b>Scopus</b>.</p></li>
-                                
-                            </ul>
+                            </blockquote>
+                            <h3><b>About Publication:</b></h3>
+                            <blockquote style="border: none;">
+                            <p>All accepted papers will be published in the book series <i>Smart Innovation, Systems and Technologies</i> by <b>Springer</b>. In addition, the similarity of the submission paper must be less than 20% according to Springer’s recommended rule. Normally, papers in this series are indexed by <b>EI</b> and <b>Scopus</b>.</p>                             
+                            </blockquote>
                             <div class="row" style="padding-left: 20px">
                                 <a href="#" target="_blank" class="btn btn-primary btn-lg">Submit Your Paper Here
                                 </a>
@@ -700,7 +716,7 @@
                             <p>The special sessions welcome interesting authors to contribute to the papers. 
                                 The organizer of each special session will be invited as the session chair, 
                                 and he/she should take all responsibility for carrying out the review process. At this time, we will invite interested scholars to organize the Special Sessions. 
-                                The template of the Special Session is as follows: <a href="file/IIHMSP-2025-SS-template.docx" target="_blank">IIHMSP-2025-SS-template</a>. Please send your Special Session CFP to 
+                                The template of the Special Session is as follows: <a href="Download/IIHMSP-2025-SS-template.docx" target="_blank">IIHMSP-2025-SS-template</a>. Please send your Special Session CFP to 
                                 the conference program chair: Prof. Ruo-Wei Hung (<a href="mailto:rwhung@cyut.edu.tw" target="_blank">rwhung@cyut.edu.tw</a>). We are looking forward to interested scholars who can form Special Sessions for this conference</p>
                             <p>The submission procedure is different from the regular sessions. Each paper of one special session should be submitted to the appropriate track as follows.</p>
                             <p><b>List of IIHMSP 2025 Accepted Invited Sessions:</b></p>
@@ -712,7 +728,7 @@
                                         <th style="color: red;">Session Organizers</th>
                                         <th>Contact</th>
                                         <th>Proposal</th>
-                                        <th>Special Session submission</th>
+                                        <th>Special Session Submission</th>
                                     </tr>
                                 </thead>
                                 <tbody >
@@ -1077,14 +1093,14 @@
                             </table>-->
                         </div>
                     </div>
-                    <div class="bhoechie-tab-content">
+                    <!--<div class="bhoechie-tab-content">
                         <div class="row">
                             <div class="text-center">
                                 <h1><b>Paper Submission</b></h1>
                             </div>
                             <hr style="background: gray; border: 0; height: 3px" />
                             <p>
-                                The conference proceedings will be published in the book series of Smart Innovation, Systems and Technologies by Springer. All submitted papers should be written according to the following MS-Word or Latex template and should be <b>8</b> to <b>12</b> pages in length.
+                                The conference proceedings will be published in the book series of Smart Innovation, Systems and Technologies by Springer. All submitted papers should be written according to the following MS-Word or Latex template and should be <b>8</b> to <b>12</b> pages in length.In addition, the similarity of the submission paper must be less than 20% according to Springer’s recommended rule.
                             </p>
                             <span>&#9679;&nbsp;<b>Paper Types</b></span>
                             <ul>
@@ -1116,9 +1132,9 @@
                             </p>
                             <p>
                                 &nbsp;&nbsp;The publication ethics and publication malpractice statement of our conference is available, press <a target="_blank" href="Publication_Ethics.html">here</a>.
-                            </p>-->
+                            </p>
                         </div>
-                    </div>
+                    </div>-->
                     <div class="bhoechie-tab-content">
                         <div class="row">
                             <div class="text-center">
@@ -1129,19 +1145,19 @@
                                     <tr>
                                         <td>Deadline for paper submission:</td>
                                         <td>
-                                             <span style="color:red">June 30, 2025</span>
+                                             <span style="color:red">May 30, 2025</span>
                                              <!-- (no extended in the future)-->
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>Notification of paper acceptance:</td>
                                         <td>
-                                            <span style="color:red">July 30, 2025 </span>
+                                            <span style="color:red">June 30, 2025 </span>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>Submission of final camera-ready papers:</td>
-                                        <td style="color: red">August 15, 2025</td>
+                                        <td style="color: red">July 15, 2025</td>
                                         <td style="color: red">&nbsp;</td>
                                     </tr>
                                     <tr>
@@ -1374,8 +1390,11 @@
 
                             <span class="CommitteeTitle">Steering Chairs</span>
                             <ol>
-                                <li class="list-unstyled">Qiangfu Zhao (U. of Aizu, Japan)</li>
+                                <!--<li class="list-unstyled">Qiangfu Zhao (U. of Aizu, Japan)</li>-->
                                 <li class="list-unstyled">Rung-Ching Chen (Chaoyang U. of Technology, Taiwan)</li>
+                                <li class="list-unstyled">Qiangfu Zhao (U. of Aizu, Japan)</li>
+                                <li class="list-unstyled">Sun-Yuan Hsieh (National Cheng Kung U., Taiwan)</li>
+
                             </ol>
 
                             <span class="CommitteeTitle">General Chairs</span>
@@ -1386,8 +1405,8 @@
 
                             <span class="CommitteeTitle">General Co-Chairs</span>
                             <ol>
-                                <li class="list-unstyled">Goutam Chakraborty (Iwate Prefectural U., Japan; Madanapalle Institute of Technology & Science, India)</li>
-                                <li class="list-unstyled">Basabi Chakraborty (Iwate Prefectural U., Japan; Madanapalle Institute of Technology & Science, India)</li>
+                                <li class="list-unstyled">Goutam Chakraborty (Iwate Prefectural U., Japan; Madanapalle Institute of Tech. and Sci., India)</li>
+                                <li class="list-unstyled">Basabi Chakraborty (Iwate Prefectural U., Japan; Madanapalle Institute of Tech. and Sci., India)</li>
                             </ol>
 
                             <span class="CommitteeTitle">Program Committee Chairs</span>
@@ -1418,7 +1437,7 @@
                             <span class="CommitteeTitle">Publicity Chairs</span>
                             <ol>
                                 <li class="list-unstyled">Wen-Huang Cheng (National Taiwan U., Taiwan)</li>
-                                <li class="list-unstyled">Ben-Jye Chang (National Yunlin U. of Science & Technology, Taiwan)</li>
+                                <li class="list-unstyled">Ben-Jye Chang (National Yunlin U. of Sci. and Tech., Taiwan)</li>
                             </ol>
 
                             <span class="CommitteeTitle">Publication Chairs</span>
@@ -1433,8 +1452,14 @@
                                 <li class="list-unstyled">Yung-Kuan Chan (National Chung Hsing U., Taiwan)</li>
                                 <li class="list-unstyled">Chih-Yang Lin (National Central U., Taiwan)</li>
                                 <li class="list-unstyled">Ching-Nung Yang (National Dong Hwa U., Taiwan)</li>
-                                <li class="list-unstyled">Ling-Ju Hung (National Taipei University of Business, Taiwan)</li>
-                                <li class="list-unstyled">Naruki Shirahama (Shimonoseki City University, Japan)</li>
+                                <li class="list-unstyled">Chao-Yang Lee (National Yunlin U. of Sci. & Tech., Taiwan)</li>
+                                <li class="list-unstyled">Ling-Ju Hung (National Taipei U. of Business, Taiwan)</li>
+                                <li class="list-unstyled">Naruki Shirahama (Shimonoseki City U., Japan)</li>
+                                <li class="list-unstyled">Biswapati Jana (Vidyasagar U., India)</li>
+                                <li class="list-unstyled">Chih-Yuan Chang (Feng Chia U.)</li>
+                                <li class="list-unstyled">Mu-Yen Chen (National Cheng Kung U.)</li>
+                                <li class="list-unstyled">Ying-Lin Hsu (National Chung Hsing U.)</li>
+
                             </ol>
                             <span class="CommitteeTitle">Local Arrangement Chairs</span>
                             <ol>
@@ -1451,6 +1476,12 @@
                             <span class="CommitteeTitle">Conference Administration</span>
                             <ol>
                                 <li class="list-unstyled">College of Informatics, Chaoyang University of Technology, Taiwan</li>
+                            </ol>
+                            <span class="CommitteeTitle">Conference website:</span>
+                            <ol>
+                                <li class="list-unstyled"><a href="https://iihmsp25.csie.cyut.edu.tw">https://iihmsp25.csie.cyut.edu.tw</a></li>
+                                or
+                                <li class="list-unstyled"><a href="https://iihmsp25.github.io">https://iihmsp25.github.io</a></li>
                             </ol>
 
                         </div>
@@ -3568,6 +3599,68 @@
                             </div>
                             <hr style="background: gray; border: 0; height: 3px" />
                             <p>Under Construction...</p>
+                            <table class="table table-bordered text-center">
+                                <tbody>
+                                    <tr>
+                                        <td style="width: 40%;">
+                                            <img src="Keynote/Mark Liao.jpg" alt="" class="img-rounded" style="width: 50%;margin-top: 5%;" />
+                                            <label>
+                                                Distinguished Research Fellow (Institute of Information Science, Academia Sinica, Taiwan)
+                                            </label>
+                                            <label>
+                                                H. Y. Mark Liao
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <p><b>Topic:(Under invitation)</b></p>
+                                            <hr />
+                                            <p></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 40%;">
+                                            <p style="text-align: center;"><b>Abstract</b></p>
+                                            <p>(Under construction)</p>
+                                        </td>
+                                        <td>
+                                            <p style="text-align: center;"><b>Biography</b></p>
+                                            <p>  Mark Liao received his Ph.D degree in electrical engineering from Northwestern University in 1990. In July 1991, he joined the Institute of Information Science, Academia Sinica, Taiwan and currently, is a Distinguished Research Fellow. He has worked in the fields of multimedia signal processing, image processing, computer vision, pattern recognition, video forensics, and multimedia protection for more than 25 years. During 2009-2011, he was the Division Chair of the computer science and information engineering division II, National Science Council of Taiwan. He is jointly appointed as a Chair Professor of the Computer Science and Information Engineering Department of National Chiao-Tung University and a Professor of the Department of Electrical Engineering and Computer Science of National Cheng Kung University. During 2009-2012, he was jointly appointed as the Multimedia Information Chair Professor of National Chung Hsing University. Since August 2010, he has been appointed as an Adjunct Chair Professor of Chung Yuan Christian University. From August 2014 to July 2016, he was appointed as an Honorary Chair Professor of National Sun Yat-sen University. He received the Young Investigators’ Award from Academia Sinica in 1998; the Distinguished Research Award from the National Science Council of Taiwan in 2003, 2010 and 2013; the National Invention Award of Taiwan in 2004; the Academia Sinica Investigator Award in 2010; and the TECO Award from the TECO Foundation in 2016. His professional activities include Co-Chair, 2004 International Conference on Multimedia and Exposition (ICME); Technical Co-chair, 2007 ICME; General Co-Chair, President, Image Processing and Pattern Recognition Society of Taiwan (2006-08); Editorial Board Member, IEEE Signal Processing Magazine (2010-13); Associate Editor, IEEE Transactions on Image Processing (2009-13), IEEE Transactions on Information Forensics and Security (2009-12) and IEEE Transactions on Multimedia (1998-2001). He has been a Fellow of the IEEE since 2013 for contributions to image and video forensics and security.
+                                                His professional activities include: Co-Chair, 2004 International Conference on Multimedia and Exposition (ICME); Technical Co-chair, 2007 ICME; General Co-Chair, 17th International Conference on Multimedia Modeling; President, Image Processing and Pattern Recognition Society of Taiwan (2006-08); Editorial Board Member, IEEE Signal Processing Magazine (2010-13); Associate Editor, IEEE Transactions on Image Processing (2009-13), IEEE Transactions on Information Forensics and Security (2009-12), IEEE Transactions on Multimedia (1998-2001), and ACM Computing Surveys (2018-2021).  Since 2021, he has been a Senior Associate Editor of ACM Computing Surveys.  He has been a Fellow of the IEEE since 2013 for contributions to image and video forensics and security.
+                                                </p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <td style="width: 40%;">
+                                            <img src="Keynote/James Yu.jpg" alt="" class="img-rounded" style="width: 50%;margin-top: 5%;" />
+                                            <label>
+                                                Professor (DePaul University, USA)
+                                            </label>
+                                            <label>
+                                                James Yu
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <p><b>Topic:(Under invitation)</b></p>
+                                            <hr />
+                                            <p></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 40%;">
+                                            <p style="text-align: center;"><b>Abstract</b></p>
+                                            <p>(Under construction)</p>
+                                        </td>
+                                        <td>
+                                            <p style="text-align: center;"><b>Biography</b></p>
+                                            <p>
+                                                Dr. Yu received his Ph.D in Computer Sciences from Purdue University in 1985. Before joining CTI, he was the director of Network Technology at ARBROS Communications, responsible for network architecture, network management, and service deployment of ISDN, RAS, Voice Tandem, ATM, Internet, Frame Relay, and IP-VPN. He had 15 years of experience at Bell Labs (AT&T and Lucent Technologies) where he was a Distinguished Member of Technical Staff, working on software reliability, software quality assurance, project management, information system, local and campus network design, web-based application development, ATM switch development, local/toll switch development, softswitch development, and fault tolerant network design.                                                
+                                                </p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>                    
                             <!--<div class="row" style="border: solid; border-width: 1px">
 
                                 <div class="col-lg-4 col-md-4 col-sm-4 text-center">
@@ -4093,32 +4186,37 @@
                             <ul class="table-condensed" style="font-size: large">
                                 <li class="list-unstyled" style="margin: 20px">
                                     <a href="https://web.cyut.edu.tw/bin/home.php?Lang=en" target="_blank">
-                                        <img src="img\footer\1-CYUT_logo.png" alt="" style="width: 120px" /></a>
+                                        <img src="Logo\1-CYUT_logo.png" alt="" style="width: 120px" /></a>
                                     Chaoyang University of Technology
                                 </li>
                                 <li class="list-unstyled" style="margin: 20px">
+                                    <a href="https://isrc.asia.edu.tw/ssci/" target="_blank">
+                                        <img src="Logo\7-SSCI.png" alt="" style="width: 120px" /></a>
+                                        Sina Smart Computing Institute
+                                </li>
+                                <li class="list-unstyled" style="margin: 20px">
                                     <a href="https://www.u-aizu.ac.jp/en/" target="_blank">
-                                        <img src="img\logo\aizu_logo.png" alt="" style="width: 120px" /></a>
+                                        <img src="Logo\3-University_of_Aizu.png" alt="" style="width: 120px" /></a>
                                     University of Aizu
                                 </li>
                                 <li class="list-unstyled" style="margin: 20px">
                                     <a href="https://www.iwate-pu.ac.jp/fl/" target="_blank">
-                                        <img src="img\footer\4-tagline_kendai.png" alt="" style="width: 120px" /></a>
+                                        <img src="Logo\4-tagline_kendai.png" alt="" style="width: 120px" /></a>
                                     Iwate Prefectural University
                                 </li>
                                 <li class="list-unstyled" style="margin: 20px">
                                     <a href="https://link.springer.com/" target="_blank">
-                                        <img src="img\footer\Springer.jpg" alt="" style="width: 120px" /></a>
+                                        <img src="Logo\0-SpringerLink_logo-2.png" alt="" style="width: 120px" /></a>
                                     Springer Link
                                 </li>
                                 <li class="list-unstyled" style="margin: 20px">
                                     <a href="https://mits.ac.in/" target="_blank">
-                                        <img src="img\footer\5-MITS.jpg" alt="" style="width: 120px" /></a>
+                                        <img src="Logo\5-MITS.jpg" alt="" style="width: 120px" /></a>
                                         Madanapalle Institute of Technology and Sciences
                                 </li>
                                 <li class="list-unstyled" style="margin: 20px">
                                     <a href="https://www.hanyang.ac.kr/web/eng/home" target="_blank">
-                                        <img src="img\footer\4-Hanyang_University.png" alt="" style="width: 120px" /></a>
+                                        <img src="Logo\6-Hanyang_University.png" alt="" style="width: 120px" /></a>
                                         Hanyang University
                                 </li>
                                 <!--<li class="list-unstyled" style="margin: 20px">
@@ -4270,9 +4368,9 @@
                     <div class="bhoechie-tab-content">
                         <div class="row">
                             <h3>Pursue Excellence, Success follows</h3>
-                            <p>CYUT is situated in the Wu-Fong District in Central Taiwan, full of incredibly natural beauty with ubiquitous elegance and grace. Irrigated by historical and cultural soil, CYUT provides students with an environment combined with higher education cradle and well-equipped campus. Compared to famous universities with more than one hundred years, CYUT is a relatively new 22-year-old university with outstanding ambitions to develop academic and technological talents, achievements, and resources. We are now emerging as a major academic powerhouse in Taiwan. Our university title, Chaoyang, meaning facing the rising sun, creates a self-image of aggressive studies, large-scale development, perfect rules and value systems. Because of incessant digging, CYUT has been trying to create various kinds of miracles in the face of international cultural impacts in the global village.</p>
+                            <p>CYUT is situated in the Wu-Fong District in Central Taiwan, full of incredibly natural beauty with ubiquitous elegance and grace. Irrigated by historical and cultural soil, CYUT provides students with an environment combined with higher education cradle and well-equipped campus. Compared to famous universities with more than one hundred years, CYUT is a relatively new 30-year-old university with outstanding ambitions to develop academic and technological talents, achievements, and resources. We are now emerging as a major academic powerhouse in Taiwan. Our university title, Chaoyang, meaning facing the rising sun, creates a self-image of aggressive studies, large-scale development, perfect rules and value systems. Because of incessant digging, CYUT has been trying to create various kinds of miracles in the face of international cultural impacts in the global village.</p>
                             <p>Globalization is an inevitable phenomenon for us to re-consider the possibilities of individualism, free wills of labor ideology, and choices of personal life-style. In the era of Internet, the development of higher education in different countries deserve our scrupulous consideration of oceans of problems, such as how to promote and upgrade universities, how to create mutual communication among multi-cultural movements on the campus, how to incorporate professional cross-cultural outputs, and how to keep abreast of international tendency. After 30 years of endeavors, CYUT has grown up and has navigated toward a closer connection and link with internationalization.</p>
-                            <p>Due to sharp decline of birth rate, Taiwan is now facing serious social and educational crises. In the 12 years to come, the number of college students dwindles. Thus, we have to take advantage of all possible facilities and resources to make both ends meet and then to create the biggest possible profits for the lasting survival of our university. By means of internationalization, we can cooperate with and guide other institutions of higher education in other countries to cultivate, to educate, to develop, and to employ students with talents. In the near future, we have to accelerate our pace to offer more educational opportunities to students from south-eastern Asia. Like the past five years, we have tried our best to recruit, to guide and to train students from Mainland China. Both strategies are of great importance. Besides, we still have to expand our Thousand-Student-Overseas-Learning-Plan as a way to make our students understand foreign cultures both economically and financially. The more our students can have a better understanding of overseas economy and life-style, the more progress our students will make to let our society a better one. Namely, the life force in Taiwan is closely intertwined with the supply and demand of international commodity.</p>
+                            <p>Due to sharp decline of birth rate, Taiwan is now facing serious social and educational crises. In the 20 years to come, the number of college students dwindles. Thus, we have to take advantage of all possible facilities and resources to make both ends meet and then to create the biggest possible profits for the lasting survival of our university. By means of internationalization, we can cooperate with and guide other institutions of higher education in other countries to cultivate, to educate, to develop, and to employ students with talents. In the near future, we have to accelerate our pace to offer more educational opportunities to students from south-eastern Asia. Like the past five years, we have tried our best to recruit, to guide and to train students from Mainland China. Both strategies are of great importance. Besides, we still have to expand our Thousand-Student-Overseas-Learning-Plan as a way to make our students understand foreign cultures both economically and financially. The more our students can have a better understanding of overseas economy and life-style, the more progress our students will make to let our society a better one. Namely, the life force in Taiwan is closely intertwined with the supply and demand of international commodity.</p>
                             <p>About course arrangement, CYUT has performed teaching quality guarantee system for many years and has become the paradigm among universities in both Taiwan and Mainland China. About students' life guidance, every class instructor is supposed to help students solve various kinds of problems they encounter. Both elite and handicapped students can also receive extra care from their instructors. The mutual interaction among instructors and students can intensify harmony on the campus. Our internship system helps students build a seamless connection between campus life and career employment. Our motto is that the moment students graduate, they can be employed; the moment they are employed, they are well-equipped. Some students even participate in academic-industrial projects with their teachers to learn, to research, and to develop, and to achieve many results and outcomes.</p>
                             <p>In order to make administrative affairs efficient, we strengthen our teaching as well as R&D and stay up-to-date with many universities in highly industrialized countries because of our terrific campus culture and teamwork skills. Now CYUT is ranked among top world 1,000 by Webometrics Ranking of World Universities and we intend to make our dreams come true: by 2021, CYUT will be ranked Top-500 University in Asia by Times Higher Education World University Rankings; by 2026 Top-300 University in Asia; by 2030 Top-1,000 University in the World; by 2050 Top-100 New University in the world. </p>
                             <p>In TIMES Higher Education Asia Universities Summit 2016, Thomas F. Rosenbaum, President of California Institute of Technology, viewed 「Vision, Focus, Perspective」 as the motto of Caltech. In other words, it means seeing far away, paying attention to depth, and digging into everything. This cornerstone of administrative affairs is also appropriate to CYUT. In order to stabilize the rapid development of CYUT and to anchor our campus value, it is very important to perpetuate our sustainable administration, to play the dual role of inherited tradition and innovation, to amplify administrative development, and to expand the influence of teaching and scientific research. We have to shoulder this heavy duty and responsibility. Members of administrative team, faculty, students, and those enthusiastic educators for the development of CYUT—together, let's work hard and create our future so as to pursue excellence and then success follows. </p>
@@ -4526,21 +4624,25 @@
 
             <hr style="background: #0563C1; border: 0; height: 3px" />
 
-            <div class="row text-center" style="margin-bottom: 30px">
+            <div class="row text-center footerlogo" style="margin-bottom: 30px">
+                <div class="col-md-12">
                 <a href="https://link.springer.com/" target="_blank">
-                    <img src="img\footer\Springer.jpg" alt=""  class="fimg" /></a>
+                    <img src="Logo\0-SpringerLink_logo-2.png" alt=""  class="fimg" /></a>
                 <a href="https://web.cyut.edu.tw/bin/index.php?Lang=zh-tw" target="_blank">
-                    <img src="img\footer\1-CYUT_logo.png" alt=""  class="fimg" /></a>
+                    <img src="Logo\1-CYUT_logo.png" alt=""  class="fimg" /></a>
                 <a href="https://www.nstc.gov.tw/" target="_blank">
-                    <img src="img\footer\2-National_Science_and_Technology.png" alt=""  class="fimg" /></a>
+                    <img src="Logo\2-National_Science_and_Technology.png" alt=""  class="fimg" /></a>
+                <a href="https://isrc.asia.edu.tw/ssci/" target="_blank">
+                        <img src="Logo\7-SSCI.png" alt=""  class="fimg" /></a>
                 <a href="https://u-aizu.ac.jp/en/" target="_blank">
-                    <img src="img\footer\3-University_of_Aizu.png" alt=""  class="fimg" /></a>
+                    <img src="Logo\3-University_of_Aizu.png" alt=""  class="fimg" /></a>
                 <a href="https://www.hanyang.ac.kr/web/eng/home" target="_blank">
-                    <img src="img\footer\4-Hanyang_University.png" alt=""  class="fimg" /></a>
+                    <img src="Logo\4-Hanyang_University.png" alt=""  class="fimg" /></a>
                 <a href="https://www.iwate-pu.ac.jp/fl/" target="_blank">
-                    <img src="img\footer\4-tagline_kendai.png" alt=""  class="fimg" /></a>
+                    <img src="Logo\4-tagline_kendai.png" alt=""  class="fimg" /></a>
                 <a href="https://mits.ac.in/" target="_blank">
-                        <img src="img\footer\5-MITS.jpg" alt=""  class="fimg" /></a>
+                        <img src="Logo\5-MITS.jpg" alt=""  class="fimg" /></a>
+                </div>
                 <!--<a href="https://www.trade.gov.tw/English/" target="_blank">
                     <img src="img\logo\BFT.jpg" alt="" style="width: 100px" /></a>
 
