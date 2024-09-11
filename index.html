@@ -41,6 +41,12 @@
                 $(this).addClass("active");
                 var index = $(this).index();
                 //alert(index)
+                if(index>=1){
+                    $('.titlename').addClass("titlenamenone");
+                }
+                else{
+                    $('.titlename').removeClass("titlenamenone");
+                }
                 $("div.bhoechie-tab>div.bhoechie-tab-content").removeClass("active");
                 $("#bs-example-navbar-collapse-6").removeClass("in");
                 $("div.bhoechie-tab>div.bhoechie-tab-content").eq(index).addClass("active");
@@ -54,6 +60,9 @@
 <body background="img/background_image.png">
 
     <style>
+        a{
+            word-wrap: break-word;
+        }
         .filedow{
             color:white;
             text-decoration: none;
@@ -188,6 +197,9 @@
             font-size: small;
             width: 137px;
         }
+        .titlenamenone{
+            display: none;
+        }
         @media (min-width: 768px) {
             .navbar-fixed-top{
                 display: none;
@@ -243,7 +255,7 @@
                 </div>
             </div>
 
-            <div class="row" style="display: flexbox /*flex*/; margin-top: 5px">
+            <div class="row titlename" style="display: flexbox /*flex*/; margin-top: 5px">
                 <div class="col-md-12 col-sm-12 col-xs-12 text-center">
                     <h3 class="text-info" style="font-weight: bold">The 21st International Conference on Intelligent Information Hiding and Multimedia Signal Processing (IIHMSP 2025)</h3>
                     <!--<h3 class="text-info" style="font-weight: bold;margin:10px;padding:0px ">(IIHMSP 2025)</h3>-->
@@ -352,7 +364,7 @@
 
             </div>
 
-            <hr style="background: #0563C1; border: 0; height: 3px" />
+            <hr class="titlename" style="background: #0563C1; border: 0; height: 3px" />
             <nav class="navbar navbar-default navbar-fixed-top">
                 <div class="container-fluid"> 
                     <div class="navbar-header"> 
@@ -472,11 +484,11 @@
 
                                 <hr style="background: gray; border: 0; height: 3px" />
                                 <p>
-                                    It is our greatest pleasure to welcome you to the 21st International Conference on Intelligent Information Hiding and Multimedia Signal Processing (IIHMSP 2025), held at Chaoyang University of Technology, Taichung, Taiwan. Multimedia technologies facilitate the creation of global information infrastructure for acquiring, storing, and communicating data in different forms. The proliferation of multimedia applications raises challenges such as multimedia security and privacy, big data in multimedia, and intelligence in multimedia processing. This conference was established in Melbourne, Australia in 2005 (paper series Springer), co-founded by Professor Jeng-Shyang Pan of Kaohsiung University of Applied Science and Technology and Professor Lakhmi C. Jain of the University of South Australia. This conference was subsequently held in the following locations from 2006 to 2024:
+                                    It is our greatest pleasure to welcome you to the 21st International Conference on Intelligent Information Hiding and Multimedia Signal Processing (IIHMSP 2025), held at Chaoyang University of Technology, Taichung, Taiwan. Multimedia technologies facilitate the creation of global information infrastructure for acquiring, storing, and communicating data in different forms. The proliferation of multimedia applications raises challenges such as multimedia security and privacy, big data in multimedia, and intelligence in multimedia processing. This conference was established in Melbourne, Australia in 2005 (paper series Springer), cofounded by Professor Jeng-Shyang Pan of Kaohsiung University of Applied Science and Technology and Professor Lakhmi C. Jain of the University of South Australia. This conference was subsequently held in the following locations from 2006 to 2024:
                                      
                                 </p>    
                                 <p>
-                                    Pasadena, USA (2006 NASA, USA, included in IEEE)  ⮕ Kaohsiung, Taiwan (2007 Kaohsiung University of Applied Science, included in IEEE)  ⮕ Harbin, China (2008 Harbin Institute of Technology, included in IEEE)  ⮕ Kyoto, Japan (2009 Ritsumeikan University, included in IEEE)  ⮕ Darmstadt, Germany (2010 Darmstadt University of Technology, included in IEEE)  ⮕ Dalian, China (2011, included in IEEE)  ⮕ Athens, Greece ( 2012 University of Piraeus, included in IEEE)  ⮕ Beijing, China (2013 Beijing University of Technology, included in IEEE)  ⮕ Kitakyushu, Japan (2014 Waseda University, included in IEEE)  ⮕ Adelaide, Australia (2015 University of South Australia, included in IEEE)  ⮕ Kaohsiung, Taiwan (2016 Kaohsiung Application University of Technology, included in IEEE)  ⮕ Matsue, Japan (2017 Waseda University, included in Springer)  ⮕ Sendai, Japan (2018 Tohoku University, included in Springer)  ⮕ Jilin, China (2019 , included in Springer)  ⮕ HoChiMinh, Vietnam (2020, included in Springer)  ⮕ Kaohsiung, Taiwan (2021 Shude University of Science and Technology, included in Springer)  ⮕ Kita-kyushu, Japan (2022 Shandong University of Science and Technology, included in Springer)  ⮕ Daegu, South Korea (2023 Kyungpook National University, included in Springer)  ⮕ Matsue, Japan (2024 Fujian University of Technology, included in Springer). 
+                                    Pasadena, USA (2006 NASA, USA, included in IEEE)  ⮕ Kaohsiung, Taiwan (2007 Kaohsiung University of Applied Science, included in IEEE)  ⮕ Harbin, China (2008 Harbin Institute of Technology, included in IEEE)  ⮕ Kyoto, Japan (2009 Ritsumeikan University, included in IEEE)  ⮕ Darmstadt, Germany (2010 Darmstadt University of Technology, included in IEEE)  ⮕ Dalian, China (2011, included in IEEE)  ⮕ Athens, Greece ( 2012 University of Piraeus, included in IEEE)  ⮕ Beijing, China (2013 Beijing University of Technology, included in IEEE)  ⮕ Kitakyushu, Japan (2014 Waseda University, included in IEEE)  ⮕ Adelaide, Australia (2015 University of South Australia, included in IEEE)  ⮕ Kaohsiung, Taiwan (2016 Kaohsiung Application University of Technology, included in IEEE)  ⮕ Matsue, Japan (2017 Waseda University, included in Springer)  ⮕ Sendai, Japan (2018 Tohoku University, included in Springer)  ⮕ Jilin, China (2019 , included in Springer)  ⮕ HoChiMinh, Vietnam (2020, included in Springer)  ⮕ Kaohsiung, Taiwan (2021 Shude University of Science and Technology, included in Springer)  ⮕ Kitakyushu, Japan (2022 Shandong University of Science and Technology, included in Springer)  ⮕ Daegu, South Korea (2023 Kyungpook National University, included in Springer)  ⮕ Matsue, Japan (2024 Fujian University of Technology, included in Springer). 
                                 </p>
                                 <p>
                                     <b>IIHMSP 2025</b> (The 21st International Conference on Intelligent Information Hiding and Multimedia Signal Processing) provides a forum for researchers, engineers, and scientists to discuss information hiding, multimedia signal processing, the application of artificial intelligence in multimedia and signal processing, and information technology to exchange latest research outcomes. 
@@ -609,17 +621,17 @@
                                             </ul>
                                 </li>
 
-                                <li class="list-group-item" style="font-weight: bold">Track III: Bio-Inspired Multimedia Technologies and Systems:
+                                <li class="list-group-item" style="font-weight: bold">Track III: BioInspired Multimedia Technologies and Systems:
                                             <ul class="list-group" style="margin-left: 15px">
                                                 <li class="list-group-item">-Artificial neural networks for multimedia processing: models, learning paradigms, architectures, and implementations</li>
-                                                <li class="list-group-item">-Fuzzy systems and evolutionary computing for intelligent multimedia pro-cessing</li>
+                                                <li class="list-group-item">-Fuzzy systems and evolutionary computing for intelligent multimedia processing</li>
                                                 <li class="list-group-item">-Human machine multimodal interaction: e.g., face/speech recognition, faci-al expression and emotion categorization, gesture analysis and recognition, etc.</li>
                                             </ul>
                                 </li>
 
                                 <li class="list-group-item" style="font-weight: bold">Track IV: Information and Computer Technology:
                                     <ul class="list-group" style="margin-left: 15px">
-                                        <li class="list-group-item">-Artificial intelligence, computer vision, deep learning, and big data tech-nology</li>
+                                        <li class="list-group-item">-Artificial intelligence, computer vision, deep learning, and big data technology</li>
                                         <li class="list-group-item">-Cloud computing, edge computing, and AIoT technology</li>
                                         <li class="list-group-item">-All other computer science fields: e.g., computer algorithm, data mining, graph algorithms, computer architecture, the other computer related areas, etc.</li>
                                     </ul>
@@ -1420,7 +1432,7 @@
 
                             <span class="CommitteeTitle">Special Session Chairs</span>
                             <ol>
-                                <li class="list-unstyled">Shing-Hong Liu (Chaoyang U. of Technolog, Taiwan)</li>
+                                <!--<li class="list-unstyled">Shing-Hong Liu (Chaoyang U. of Technolog, Taiwan)</li>-->
                                 <li class="list-unstyled">Lin-Huang Chang (National Taichung U. of Education, Taiwan)</li>
                             </ol>
 
@@ -3599,7 +3611,7 @@
                                 <h1><b>Keynote Speakers</b></h1>
                             </div>
                             <hr style="background: gray; border: 0; height: 3px" />
-                            <p>Under Construction...</p>
+                            <!--<p>Under Construction...</p>--->
                             <table class="table table-bordered text-center">
                                 <tbody>
                                     <tr>
